@@ -1,0 +1,27 @@
+header {
+    background-color: lightskyblue;
+    color:black;
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+    border: 1px solid transparent; }
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+}
+
+nav {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 15px;
+}
