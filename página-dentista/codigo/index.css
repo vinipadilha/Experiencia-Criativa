@@ -7,8 +7,7 @@ header {
     border: 1px solid transparent; 
     position: fixed;
     width: 100%;
-    
-    
+    top: 0;
 }
 
 .logo {
@@ -35,3 +34,86 @@ nav a {
     font-size: 16px;
 }
 
+.sobreLogo {
+    margin-top: 140px;
+    margin-left: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.contatiner{
+    margin-top: 20px;
+}
+
+.imagem {
+    float: left;
+    width: 300px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.imagem img {
+    width: 100%; 
+    height: auto; 
+}
+
+.imagem p {
+    margin-top: 10px; 
+}
+
+
+.teste img{
+    float: right;
+    width: 300px;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.teste{
+    margin-top: 700px;
+    font-size: 20px;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px; 
+}
+
+.Horario, .formulario {
+    width: 45%;
+    padding: 20px;
+    background-color: #f9f9f9; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    margin-top: 30px;
+}
+
+.Horario h2, .formulario h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+label {
+    font-size: 18px;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="date"], input[type="time"], button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50; 
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049; 
+}

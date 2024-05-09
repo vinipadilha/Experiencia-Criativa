@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dra. Viviani Padilha</title>
+    <link rel="stylesheet" href="index.css">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+    </style>
+</head>
+<body>
+    <header>
+        <a class="logo">Dra. Viviani Padilha</a>
+        <nav>
+            <a href="index.html">Início</a> 
+            <a href="">Sobre</a>
+            <a href="">Serviços</a>
+            <a href="contato.html">Contato</a> 
+        </nav>
+    </header>
+
+    <div class="container1">
+        <div class="Horario">
+            <h2>Horário de Funcionamento</h2>
+            <p>Segunda feira: 7:30h às 13h</p>
+            <p>Terça feira: 14h às 19h</p>
+            <p>Quarta feira: 7:30h às 13h</p>
+            <p>Quinta feira: 14h às 19h</p>
+            <p>Sexta feira: 7:30h às 13h</p>
+            <p>Sábado: 7:30h às 13h</p>
+            <p>Domingo: Fechado</p>
+        </div>
+
+        <div class="formulario">
+            <h2>Agende sua Consulta</h2>
+            <form method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required> <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required> <br>
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" required> <br>
+                <label for="data">Data da Consulta:</label>
+                <input type="date" id="data" name="data" required> <br>
+                <label for="horario">Horário de Preferência:</label>
+                <input type="time" id="horario" name="horario" required> <br>
+                <button type="submit" onclick="window.location.href='index.html'">Verificar disponibilidade</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
