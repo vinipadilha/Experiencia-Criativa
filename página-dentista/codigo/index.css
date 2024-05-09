@@ -87,11 +87,19 @@ nav a {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
     margin-top: 30px;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 1px;
 }
 
 .Horario h2, .formulario h2 {
     margin-bottom: 20px;
     font-size: 24px;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 1px;
+}
+
+.Horario p{
+    font-size: 20px;
 }
 
 label {
