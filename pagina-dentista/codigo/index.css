@@ -1,0 +1,209 @@
+.logo {
+    font-size: 36px; 
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+
+header {
+    background-color: lightskyblue;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    margin: -10px;
+    border: 1px solid transparent;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+nav {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 16px;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 100px;
+}
+
+.bloco {
+    width: calc(33% - 20px); 
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    margin-top: 20px;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+.bloco img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.container1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 115px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.Horario, .formulario {
+    width: 45%;
+    padding: 20px;
+    background-color: #f9f9f9; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    margin-top: 0px;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 1px;
+}
+
+.Horario h2, .formulario h2 {
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-size: 24px;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 1px;
+}
+
+.Horario p{
+    font-size: 20px;
+}
+
+label {
+    font-size: 18px;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="date"], input[type="time"], button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50; 
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049; 
+}
+
+.servicos > div {
+    width: 45%; 
+    margin: 10px; 
+    padding: 15px;
+    background-color: #f9f9f9; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    display: inline-block; 
+    vertical-align: top;
+    box-sizing: border-box; 
+    margin-top: 110px;
+    margin-bottom: -80px;
+    text-align: left; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    justify-content: flex-start; 
+}
+
+.servicos {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.servicos h1 {
+    font-size: 24px;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 1px;
+    margin-top: 0;
+}
+
+.servicos p {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 5px; 
+}
+
+.servicos img {
+    width: 80%;
+    height: auto;
+    margin-top: 5px;
+    margin: 0auto;
+}
+
+#planos{
+    margin-top: 120px; 
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 1px;
+}
+
+#localizacao{
+    margin-top: 10px; 
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 1px;
+}
+
+
+
+#planos h1, #localizacao h1 {
+    margin-bottom: 20px;
+    color:lightskyblue;
+}
+
+#planos ul, #localizacao p {
+    list-style-type: none;
+    padding: 0;
+}
+
+#planos li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+#planos a:link, #planos a:visited, #planos a:hover, #planos a:active {
+    color: #000;
+}
+
+#localizacao a {
+    color: lightskyblue;
+    text-decoration: underline;
+}
