@@ -5,6 +5,7 @@ body{
 header{
     padding: 20px;
     text-align: left;
+    margin-left: 80px;
 }
 
 
@@ -29,12 +30,49 @@ nav ul li a {
     text-decoration: none;
     font-family: "Kanit", sans-serif;
     font-size: 20px;
-    padding: 15px;
-    align-items: left;
+    padding: 35px;
 }
 
 .kanit-light {
     font-family: "Kanit", sans-serif;
     font-weight: 300;
     font-style: normal;
-  }
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-left: 110px;
+    margin-top: 100px;
+}
+
+main {
+    display: flex; /* flexbox para criar um layout flexivel */
+    align-items: center; /* alinha verticalmente o conteudo */
+}
+
+.textoSobre{
+    margin-left: 20px;
+    font-size: 18px; 
+}
+
+.textoSobre p{
+    color: white;
+}
+
+.textoSobre h2{
+    color: rgba(0, 204, 255, 0.815);
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+  
+
+
+
+
+
+
+
