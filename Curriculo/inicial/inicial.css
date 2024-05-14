@@ -6,8 +6,8 @@ header{
     padding: 20px;
     text-align: left;
     margin-left: 80px;
+    margin-right: 100px;
 }
-
 
 nav{
     display: inline-block; /** para ocupar somente o nescessario **/
@@ -48,17 +48,20 @@ img{
 }
 
 main {
-    display: flex; /* flexbox para criar um layout flexivel */
-    align-items: center; /* alinha verticalmente o conteudo */
-}
-
-.textoSobre{
-    margin-left: 20px;
-    font-size: 18px; 
+    display: flex;
+    align-items: center; 
+    
 }
 
 .textoSobre p{
-    color: white;
+    color:white;
+    text-decoration: none;
+    font-family: "Kanit", sans-serif;
+    font-size: 18px; 
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-right: 100px;
+    margin-bottom: 0px;
 }
 
 .textoSobre h2{
@@ -66,12 +69,35 @@ main {
     font-family: "Kanit", sans-serif;
     font-weight: 600;
     font-style: italic;
+    font-size: 48px; 
+    margin-left: 20px;
+    margin-bottom: -5px;
+    margin-top: 80px;
 }
 
-  
+.aboutMe h1{
+    color: rgba(0, 204, 255, 0.815);
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 48px; 
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 80px;
+    text-align: center;
+}
 
-
-
+.aboutMe p{
+    color:white;
+    text-decoration: none;
+    font-family: "Kanit", sans-serif;
+    font-size: 18px; 
+    margin-left: 100px;
+    margin-top: 0px;
+    margin-right: 100px;
+    margin-bottom: 0px;
+    text-align: center;
+}
 
 
 
