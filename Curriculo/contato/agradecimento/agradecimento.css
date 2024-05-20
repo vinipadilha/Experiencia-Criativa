@@ -118,6 +118,7 @@ nav ul li a {
     font-family: "Kanit", sans-serif;
     font-size: 14px;
     transition-duration: 0.2s;
+    text-decoration: none;
 }
   
 .button2:hover {
