@@ -1,0 +1,100 @@
+.top{
+    text-align: center;
+
+}
+
+.top a{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    margin: 5vw;
+    font-family: Verdana;
+}
+
+
+.home:hover {
+    color: white;
+    background-color: black;
+}
+.contato:hover{
+    color: white;
+    background-color: black;
+}
+
+.banner img{
+    height: 40vh;   
+}
+
+.banner p{
+    margin-top: 1vh;
+    font-family: Verdana;
+    margin: 0% 20%;
+}
+
+.banner{
+    margin-top: 5vh;
+    text-align: center;
+}
+
+
+.vendidos img{
+    width: 20vw;
+    margin: 3vh;
+    margin-right: 5vh;
+}
+
+.vendidos{
+    float: left;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    margin-right: 2vw;
+    height: 75vh;
+    border-radius: 10px;
+}
+
+.pratos{
+    max-width: 81%;
+    margin: 10px auto;
+    margin-top: 8vh;
+    text-align: center;
+}
+
+.vendidos p{
+    max-width: 23vw;
+    padding: 1vh;
+}
+
+
+.cardapio{
+    max-width: 81%;
+    margin: 10px auto;
+    text-align: center;
+    margin-top: 500px;
+}
+
+.opcoes{
+    border-color: black;
+    border-radius: 10px;
+    border: 2px;
+    border-style: solid;
+    width: 31%;    
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    height: 320px;    
+    float: left;
+}
+
+
+.opcoes img{
+    width: 15vw;
+    margin-top: -2vh;
+}
+
+.opcoes p {
+    margin: 2% 2%;
+}
